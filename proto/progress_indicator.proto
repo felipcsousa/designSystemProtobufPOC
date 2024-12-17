@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message ProgressIndicatorDTO {
+  float percentage = 1;                // Progresso em porcentagem
+  
+  string labelTop = 2;                 // Texto do label superior
+  string valueTop = 3;                 // Valor associado ao label superior
+  
+  string labelBottomLeft = 4;          // Texto do label inferior esquerdo
+  string valueBottomLeft = 5;          // Valor associado ao label inferior esquerdo
+  
+  string labelBottomRight = 6;         // Texto do label inferior direito
+  string valueBottomRight = 7;         // Valor associado ao label inferior direito
+  
+  bool spacingTop = 8;                 // Token spacing_sm no topo
+  bool spacingBottom = 9;              // Token spacing_sm na base
+}
