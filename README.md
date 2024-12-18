@@ -100,11 +100,10 @@ O código gerado para as plataformas Android (Kotlin) e iOS (Swift) possui as se
 
     -   O código gerado pode parecer mais extenso e menos idiomático do que um DTO feito à mão. Isso ocorre porque o objetivo é garantir conformidade com o contrato Protobuf e o runtime do `SwiftProtobuf` e do `Kotlin Protobuf Extensions`.
     -   Os desenvolvedores raramente precisam editar o código gerado. Eles apenas interagem com as propriedades e métodos públicos disponibilizados pelas classes e structs geradas.
- 
----
+
+----------------------------------
 
 ## 💼 Benefícios para o Design System
-----------------------------------
 
 -   **Manutenção Simplificada**:
 
